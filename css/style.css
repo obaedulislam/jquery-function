@@ -1,0 +1,128 @@
+/* ===|| Font Intigration Start ||=== */
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url(..//fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
+    src: url(..//fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: 'Lato', sans-serif;
+    src: url(..//fonts/Lato-Regular.ttf);
+    src: url(..//fonts/Lato-Bold.ttf);
+}
+/* ===|| Font Intigration End ||=== */
+
+/* ===|| Common CSS Start ||=== */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    font-style: italic;
+    word-spacing: 2px;
+    color:rgb(42, 14, 68);
+    text-shadow: 1px 1px #5f3ba3;
+}
+h2{
+    margin-top: 10px;
+    font-size: 22px;
+    font-style: italic;
+    color: rgb(255, 123, 0);
+}
+h6{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+button{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+button:active{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* ===|| Common CSS End ||=== */
+.single-assignment{
+    margin-top: 30px;
+    padding: 40px;
+    height: 100%;
+    border: 2px solid #1E1E1E;
+    border-radius: 10px;
+    background-color: rgba(241, 238, 238, 0.699);
+}
+.single-assignment:last-child{
+    margin-bottom: 30px;
+}
+.right-input{
+    margin-left: 30px;
+    background-color: #1E1E1E;
+    color: #fff;
+}
+.right-input img{
+    width: 100%;
+}
+
+
+/* JQ CSS Start */
+#show{
+    display: none;
+}
+
+.flip1, .flip2, .flip3, .flip6{
+    width: 100%;
+    padding: 5px;
+    background-image: linear-gradient(to right, #422874 0%, #2a0845  51%, #3a1f6d  100%);
+    color: #fff;
+    border: 2px solid #ac5454;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, .panel9, .panel10{
+    width: 100%;
+    padding: 25px;
+    background-image: linear-gradient(to right, #422874 0%, #2a0845  51%, #3a1f6d  100%);
+    color: rgb(173, 167, 167);
+    border: 2px solid #ac5454;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.animate1, .animate2, .animate3{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to right, #672874 0%, #0e0b20  51%, #1f276d  100%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: #fff;
+}
+.animate3{
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+}
+.panel8{
+    height: 150px;
+}
+.fon-siz{
+    font-size: 30px;
+    font-weight: 700;
+}
+.blue{
+    color: blue;
+}
+#dimension, #dimension2{
+    height: 120px;
+    width: 400px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+.siblings *{
+    display: block;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 5px;
+    margin: 15px;
+}
