@@ -1,2 +1,2 @@
 # jquery-function
-This project is about
+This project is about jQuery basic fuction
